@@ -13,4 +13,4 @@ def student():
     conn.commit()
     conn.close()
 
-    return {"message": "Student displayed successfully"}
+    return {"message": "Students viewed successfully"}
