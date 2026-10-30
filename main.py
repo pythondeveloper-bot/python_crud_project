@@ -8,7 +8,7 @@ def student():
     conn = sqlite3.connect("school.db")
     cursor = conn.cursor()
 
-    cursor.execute("select distinct name from students")
+    cursor.execute("select * from students")
 
     conn.commit()
     conn.close()
