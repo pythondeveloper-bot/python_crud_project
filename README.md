@@ -8,12 +8,12 @@ A backend REST API built using **Python**, **FastAPI**, and **SQLite** to perfor
 - SQLite
 - Uvicorn & SwaggerUI
 
-# Features
+## Features
 - Create, read, update, and delete student records
 - Interactive API documentation and endpoint testing using Swagger UI
 - Lightweight SQLite database integration
 
-# How to Run Locally
+## How to Run Locally
 1. Install dependencies:
    ```bash
    pip install fastapi uvicorn
